@@ -123,7 +123,7 @@ $(document).ready(function() {
 	var modalClose = document.querySelector(".modal-close");
 	modalClose.addEventListener("click", function () {
 	modalClose.parentNode.parentNode.classList.add("hidden");
-	}5000);
+	});
 
     var map = $('#map');
     if(map.length > 0) {
